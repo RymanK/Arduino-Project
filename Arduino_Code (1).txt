@@ -1,0 +1,163 @@
+int red = 10;
+int yellow = 9;
+int green = 8;
+
+int red2 = 4;
+int yellow2 = 3;
+int green2 = 2;
+
+int blueCounter = 11;
+
+int button1 = 7;
+int button2 = 6;
+int button3 = 12;
+
+void setup() 
+{
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(red2, OUTPUT);
+  pinMode(yellow2, OUTPUT);
+  pinMode(green2, OUTPUT);
+  pinMode(blueCounter, OUTPUT);
+  pinMode(button1, INPUT);
+  pinMode(button2, INPUT);
+  pinMode(button3, INPUT);
+
+  digitalWrite(red, HIGH);
+  digitalWrite(red2, HIGH);
+
+}
+
+void loop() 
+{
+if (digitalRead(button3) == HIGH){
+     digitalWrite(red, HIGH);
+     digitalWrite(red, HIGH);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+}
+else
+{
+  
+     if (digitalRead(button1) == HIGH)
+   {
+    delay(2000);
+    digitalWrite(red, LOW);
+    digitalWrite(green, HIGH);
+    delay(5000);
+    digitalWrite(green, LOW);
+    digitalWrite(yellow, HIGH);
+    delay(3000);
+    digitalWrite(yellow, LOW);
+    digitalWrite(red, HIGH);
+   } 
+  else
+   {
+    digitalWrite(red, HIGH);
+   }
+
+if (digitalRead(button3) == HIGH){
+     digitalWrite(red, HIGH);
+     digitalWrite(red, HIGH);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+     digitalWrite(blueCounter, HIGH);
+     delay(200);
+     digitalWrite(blueCounter, LOW);
+     delay(1000);
+}
+   if (digitalRead(button2) == HIGH)
+   {
+    delay(2000);
+    digitalWrite(red2, LOW);
+    digitalWrite(green2, HIGH);
+    delay(5000);
+    digitalWrite(green2, LOW);
+    digitalWrite(yellow2, HIGH);
+    delay(3000);
+    digitalWrite(yellow2, LOW);
+    digitalWrite(red2, HIGH);
+   } 
+  else
+   {
+    digitalWrite(red2, HIGH);
+   }
+  }
+}
+
